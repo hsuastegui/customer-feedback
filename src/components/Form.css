@@ -1,0 +1,46 @@
+.form {
+    display: block;
+    padding: 5px;
+}
+
+.form label {
+    font-size: 12px;
+    margin-bottom: 2px;
+    display: block;
+    color: #232126;
+}
+
+.form input:not([type="range"]),
+.form textarea {
+    display: block;
+    width: 100%;
+    border-color: #232126;
+    border-radius: 5px;
+    border-width: 1px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="range"] {
+    display: block;
+    width: 100%;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.form button {
+    display: block;
+    background: #232126;
+    color: #D2D9CC;
+    height: 36px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form svg:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}

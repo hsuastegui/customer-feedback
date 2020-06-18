@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders 1`] = `
+<div
+  className="list"
+>
+  <div
+    className="listItem"
+    key="3John"
+  >
+    <span>
+      Lorem ipsum
+    </span>
+    <Stars
+      rating={3}
+      setRating={[Function]}
+    />
+  </div>
+</div>
+`;

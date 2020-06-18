@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="name"
+  >
+    Name
+  </label>
+  <input
+    name="name"
+    required={true}
+    type="text"
+  />
+  <label
+    htmlFor="email"
+  >
+    Email
+  </label>
+  <input
+    name="email"
+    required={true}
+    type="email"
+  />
+  <label>
+    Rating
+  </label>
+  <Stars
+    rating={3}
+    setRating={[Function]}
+  />
+  <label
+    htmlFor="comment"
+  >
+    Comment
+  </label>
+  <textarea
+    name="comment"
+    required={true}
+  />
+  <button
+    type="submit"
+  >
+    Send
+  </button>
+</form>
+`;

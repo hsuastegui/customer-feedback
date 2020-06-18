@@ -1,0 +1,8 @@
+svg {
+    transition: all ease 0.3s;
+    fill: #232126;
+}
+
+svg.active {
+    fill: #BF5630
+}

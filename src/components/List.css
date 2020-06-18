@@ -1,0 +1,17 @@
+.list {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.listItem {
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #232126;
+    display: flex;
+    align-items: center;
+
+}
+
+.listItem span:first-child {
+    flex: 1;
+}
